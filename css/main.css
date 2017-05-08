@@ -1,0 +1,199 @@
+ /*site body*/
+body {
+  background-color: #fff;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+   text-decoration: none;
+ }
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+.wrapper {
+   /* center */
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 5%;
+   /*border: 5px solid red;*/
+ }
+ /*********************************
+      Heading
+ **********************************/
+
+header {
+  float: left;
+  width: 100%;
+  margin: 0 0 35px 0;
+  padding: 15px 0 0 0 ;
+  background: #1c86ee;
+  border-color: #599a68;
+}
+
+/*logo text*/
+h1,h2 {
+  color: #fff;
+}
+
+h1 {
+  font-family: 'David Libre', serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'David Libre', serif;
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+#myTitle {
+  text-align: center;
+  margin 0;
+}
+
+/*********************************
+NAVIGATION
+**********************************/
+nav {
+  background: #1874cd;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  /*margin-right: 5px;*/
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+nav a,nav a:visited {
+  color: white;
+}
+
+nav a.active, nav a:hover {
+  color: rgba(24, 30, 26, 0.86);
+}
+
+
+/*********************************
+Project: Portfolio
+**********************************/
+#myProject {
+  margin: 0;
+  padding: 0;
+}
+
+#myProject li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+/*Project Caption Style*/
+#myProject li a p {
+  /*margin: 0;*/
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+/*********************************
+  About Page
+**********************************/
+.profile-img {
+  clear:both;
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/*********************************
+  Contact Page
+**********************************/
+.info {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+
+}
+
+.info a {
+  display: block;
+  min-height: 20px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.info a i {
+  padding: 0 20px;
+  margin: 5px 0;
+}
+
+
+/*********************************
+FOOTER
+**********************************/
+footer {
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  margin: 0 5px;
+  color: rgba(9, 22, 32, 0.45);
+}
+
+footer a .fa-facebook-official:hover {
+  color: rgba(17, 68, 162, 0.85);
+}
+
+footer a .fa-twitter-square:hover {
+  color: rgba(45, 94, 184, 0.75);
+}
+
+footer a .fa-github:hover {
+  color: black;
+}
+
+footer a .fa-envelope:hover {
+  color: purple;
+}
+
+footer a .fa-linkedin:hover {
+  color: rgba(17, 68, 162, 0.85);
+}
+
+footer a .fa-medium:hover {
+  color: rgba(26, 141, 26, 0.76);
+}
